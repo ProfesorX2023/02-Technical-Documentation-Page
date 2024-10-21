@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScript Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header class="navbar-header">JS Documentation</header>
+        <ul class="nav-list">
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Prerequisites">Prerequisites</a></li>
+            <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+            <li><a class="nav-link" href="#Variables">Variables</a></li>
+            <li><a class="nav-link" href="#Functions">Functions</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>
+                    JavaScript is a versatile, lightweight, cross-platform scripting language commonly used for enhancing web pages with interactive features.
+                </p>
+                <p>
+                    It integrates with various host environments like browsers, offering extended functionalities.
+                </p>
+                <ul>
+                    <li>Client-side JavaScript extends the core language by controlling the DOM and responding to user events.</li>
+                    <li>Server-side JavaScript adds capabilities for interacting with databases, managing files, and handling server requests.</li>
+                </ul>
+                <p>
+                    JavaScript's popularity has grown because of its simplicity and ability to create dynamic, engaging web applications.
+                </p>
+                <code>console.log('JavaScript is fun!');</code>
+            </article>
+        </section>
+        <section class="main-section" id="Prerequisites">
+            <header>Prerequisites</header>
+            <article>
+                <p>This documentation assumes a basic understanding of:</p>
+                <ul>
+                    <li>The Internet and how the Web functions.</li>
+                    <li>Fundamentals of HTML and its elements.</li>
+                    <li>Basic programming knowledge, especially if you're just starting.</li>
+                </ul>
+                <p>
+                    Having these foundational skills will help you grasp JavaScript more easily and enable you to dive deeper into its concepts.
+                </p>
+                <code>let knowledge = "basic";</code>
+            </article>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <article>
+                <p>Here's a simple JavaScript example to get started:</p>
+                <pre><code>function greet(name) {
+    alert(`Hello, ${name}!`);
+}
+greet('World');</code></pre>
+                <p>Open your browser console, paste the code, and see it in action!</p>
+                <ul>
+                    <li>JavaScript is interpreted by browsers.</li>
+                    <li>Functions are blocks of code designed to perform a task.</li>
+                </ul>
+                <code>alert('Hello, World!');</code>
+            </article>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <article>
+                <p>Variables are used to store data values in JavaScript.</p>
+                <p>
+                    There are different ways to declare variables: using `var`, `let`, and `const`.
+                </p>
+                <ul>
+                    <li>`var`: Function-scoped, can be re-declared.</li>
+                    <li>`let`: Block-scoped, cannot be re-declared.</li>
+                    <li>`const`: Block-scoped, cannot be re-assigned.</li>
+                </ul>
+                <p>It's recommended to use `let` and `const` in modern JavaScript for better scoping.</p>
+                <code>let x = 10;</code>
+            </article>
+        </section>
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <article>
+                <p>Functions are fundamental blocks of JavaScript code that are used to perform tasks or calculations.</p>
+                <p>You define a function using the `function` keyword followed by a name, parameters, and a block of code.</p>
+                <ul>
+                    <li>Functions can take inputs (parameters) and return outputs.</li>
+                    <li>They help organize code into reusable blocks.</li>
+                </ul>
+                <p>Here's a simple example of a function:</p>
+                <code>function sum(a, b) { return a + b; }</code>
+                <p>Call the function like this: `sum(2, 3);`</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
